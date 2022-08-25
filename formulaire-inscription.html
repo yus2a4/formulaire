@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>formulaire d'inscripton en javascript</title>
+<meta name="description" content=controler et valider les saisies d'un formulaire d'inscription web pa le code client javascript"  />
+<meta name="robots" content="index,follow"  />
+<meta http-equiv="content-language" content="fr"  />
+<link href='styles/mer.css' rel='stylesheet' type='text/css'  />
+<script language="javascript" type="text/javascript">
+   
+     var b_clvilite=false; var b_nom=false; var b_prenon=false;
+	 var b_date=false; var b_mail=false; var b_mp=false;
+	 
+	 function envoyer()
+	 {
+	 if(b_civilite==true
+
+
+</script>
+<script language="javascript" scr="js/v_inscr.js"></script>
+</head>
+<body>
+
+     <div class="div_conteneur_parent">
+	 
+	    <div class="div_conteneur_page">
+		   <a href="http://www.bonhache.fr/" target="_self">
+		   <img scr="images/le_formateur.png" style="width:50px;border:none;"align="left" alt="formateur informatique"  />
+		   </a>
+		   <div class="title_page"><h1>formulaire d'inscription web</h1></div>
+		   <div class="div_int_page">
+		   <div class="div_saut_ligne">
+		   </div>
+		   
+		   <div style="float:left;width:10%;height:40px;"></div>
+		   <div style="float:left;width:80%;height:40px;text-align:center;">
+		   <div id="GTitre">
+		   <h1>formulaire d'inscription controlé coté client </h1>
+</div>
+</div>
+<div style="float:left;width:10%;height:40px;"></div>
+
+<div class="div_saut_ligne" style="height:60px">
+</div>
+
+<div style="width:100%;height:auto;text-align:center;">
+
+<div style=width:800px;display:inline-block;" id="conteneur">
+    <div id="centre">
+	<div id="message">
+	tous les champs sont obligatoires
+	</div>
+	     <form id="inscription" name="inscription" method="post" action="formulaire-inscription.html">
+		     <div class="div_input_form">
+			      <select id="civilité" name="civilité">
+				      <option value="0">civilité</option>
+					  <option value="1">madame</option>
+					  <option value="2">monsieur</option>
+				  </select>
+			 </div>
+			 <div class="div_input_form">
+			 <input type="text" name="nom" id="nom" maxlength="50" class="input_form" value='votre nom' />
+			 </div>
+			 <div class="div_input_form">
+			 <input type="text" name="prenom" id="prenom" maxlength="50" class="input_form" value='votre prenom'/>
+			 </div>
+			 <div class="div_input_form">
+			 <input type="text" name="date_n" id="date_n" maxlength="50" class="input_form" value='naissance, ex : 19/04/1996'  />
+			 </div>
+			 <div class="div_input_form">
+			 <input type="text" name="mail_inscr" id="maim_inscr" maxlength="150" class="input_form" value='votre mail'  />
+			 </dive>
+			 <div class="div_input_form">
+			 <input type="text" name="cmail_inscr" id="cmail_inscr" maxlength="150" class=input_form" value='confirmer le mail'  />
+			 </dive>
+			 <div class="div_input_form">
+			 votre mot de passe : entre 5 et 10 caractères<br />
+			 <input type="password" name="mp_inscr" id="mp_inscr" maxlength="10" class="input_form" value="mot de passe"
+			 </div>
+			 <div class="div_input_form">
+			 <imput type="button" name="valid_inscr" id="valid_inscr" class="input_form" value="valider"  />
